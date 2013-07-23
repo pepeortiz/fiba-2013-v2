@@ -352,8 +352,8 @@ ul.jobs                  { width: 658px; height: auto; margin:30px 25px 0 25px; 
 .jobs li h2              { font-size: 14px; line-height: 18px; display: inline-block; }
 .jobs li img              { float: left; }
 .jobs li a h2 span.small { font-size: 10px; }
-.jobdate                 { position: absolute; padding: 5px 10px; margin-left: 15px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
-.listadoTituloNoticia { float: left; margin-left: 15px; margin-top: 35px; width: 430px; font-family: 'Chivo', sans-serif; font-style: italic; font-weight: 900; font-size: 16px; }
+.jobdate                 { /*position: absolute;*/ float: left; padding: 5px 10px; margin-left: 15px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.listadoTituloNoticia { float: left; margin-left: 15px; margin-top: 8px; width: 430px; font-family: 'Chivo', sans-serif; font-style: italic; font-weight: 900; font-size: 16px; }
 
 
 /* -- FAQ -- */
