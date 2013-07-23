@@ -1,0 +1,236 @@
+/* Style abc mogoze ( default ) -----------------------------------------------
+-----------------------------------------------------------------------------*/
+h1,h2,h3,h4,h5,h6        { color: #333;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited        { /*color: #2b2b2b; text-decoration: none;*/ }
+a:hover                  { /*color: #0099cc;*/ }
+
+::-moz-selection         { background:#6c942e; color: #fff; text-shadow: none; }
+::selection              { background:#6c942e; color: #fff; text-shadow: none; }
+
+html body                { background: #f6f5f2; color: #414141;}
+header                   { background: #3b3b3b;}
+.top-header              { background: #3b3b3b;}
+.header-adv              { background: #f0eee9; border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3;}
+.wrap                    { background: #FFF; border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/*ul.social-stats          { border-right: 1px solid #e3e3e3;}*/
+.social-stats li{ background: #FFF; border-right: 2px solid #a6a3a3; }
+.social-stats li:last-child        { background: #FFF; border-right: none; }
+
+.social-stats li a > div.nr { color: #0099cc; }
+.social-stats li a > div.tx { color: #2b2b2b; }
+.social-stats li:hover a > div.nr { color: #7dc34d;}
+
+/* -- Search -- */
+#searchform2 #s          { background-color: #282828; color: #FFF;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Content -------------------------------------
+-----------------------------------------------------------------------------*/
+
+.content                 { background: #f3f3f3; border-right: 1px solid #bab9b9; border-bottom: 1px solid #e3e3e3; }
+h3.content-title, h3.freebies-title, h3.blog-title, h3.jobs-title, h3.sidebar1-title, h3.sidebar2-title, h3.sidebar1-title-green, h3.sidebar1-title-gold, h3.sidebar2-title-orange, h3.sidebar2-title-black   { background: #c4c4c4; border-top: 1px solid #bab9b9; border-bottom: 1px solid #bab9b9; }
+h3.sidebar2-title, h3.blog-title        { background: #0099cc; color: #FFF;}
+h3.sidebar2-title-orange, h3.jobs-title { background: #c4c4c4; color: #333;}
+h3.sidebar2-title-black  { background: #3b3b3b; color: #FFF;}
+h3.sidebar1-title-green, h3.freebies-title  { background: #7dc34d; color: #FFF;}
+h3.sidebar1-title-gold   { background: #ffd62c; color: #FFF;}
+
+
+.post                    { background: #FFF; border-left: 1px solid #e3e3e3; border-right: 1px solid #bebebd; border-bottom: 1px solid #bebebd; }
+.article-container       { background: #FFF;}
+.article-category a      { color: #7f8282;}
+h2.article-title a, h1.article-title, h1.page-title { color: #333;}        
+h2.article-title a:hover, .article-category a:hover { text-decoration: underline; }
+
+.rating > span:hover:before, .rating > span.gold:before, .rating > span:hover ~ span:before { color: #ffd62c; }
+
+.post-date               { background-color:#0099cc; color: #FFF;}
+.freebies-date           { background: #c62036; color: #FFF;}
+
+
+.post:hover .article-slider { background:#ffd62c url(../../images/article-slider.png) no-repeat 10px 10px; }
+.post:hover .article-image  { background:#ffd62c url(../../images/article-image.png) no-repeat 10px 10px; }
+.post:hover .article-video  { background:#ffd62c url(../../images/article-video.png) no-repeat 10px 10px; }
+.post:hover .article-text   { background:#ffd62c url(../../images/article-text.png) no-repeat 10px 10px; }
+
+.no-image                { background: #FFF; border-top: 1px solid #e3e3e3;}
+.entry a                 { color: #0099cc; }
+.entry a:hover           { text-decoration: underline;}
+
+
+/* -- Banners -- */
+.banner                  { background: #FFF; border-left: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; border-right: 1px solid #bebebd; border-bottom: 1px solid #bebebd;}
+.banner300 span a        { color: #7f8282;}
+
+/* -- Pagination -- */
+.wp-pagenavi             { background: #FFF; border-top: 1px solid #e3e3e3; }
+.wp-pagenavi a, .wp-pagenavi span { background: #2b2b2b; color: #fff !important;}
+.wp-pagenavi a:hover, .list1 li a:hover, .list2 li a:hover { color: #fff; background: #c42835;}
+.wp-pagenavi span.current { background: #c42835; color: #fff !important;}
+
+/* -- Freebies -- */
+.free-item               { border: 1px solid #e3e3e3;}
+.free-item .caption h2   { color: #444;}
+.free-item .caption      { background: #FFF; color:#FFF;}
+.free-item .caption p    { color: #969797;}
+.free-item .caption span { background: #7dc34d; color: #FFF;}
+
+/* -- Jobs -- */
+ul.jobs             { background: #FFF; border: 1px solid #e3e3e3;}
+.jobs li            { border-bottom: 1px solid #e3e3e3; }
+.jobs li:hover      { background: #f3f3f3; border-bottom: 1px solid #bebebd;}
+.jobs li a h2       { color: #444;}
+
+.jobs li a h2 span.small    { color: #969797; }
+.jobs li a h2 span.big      { color: #969797; }
+.jobdate                    { background: #c42835; color: #FFF; }
+
+/* -- FAQ -- */
+.accordionButton        { border-bottom: 1px solid #f0eee9; color: #333;}
+.accordionButton:hover  { border-bottom: 1px solid #bebebd;}
+.accordionButton.first  { border-top: 1px solid #f0eee9;}
+.accordionContent       { border-bottom: 1px solid #f0eee9;}
+
+#faq-jobs               { border-top: 1px solid #f0eee9;}
+
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Sidebar --------------------------------------
+-----------------------------------------------------------------------------*/
+.sidebar1                { background: #FFF; border-right: 1px solid #e3e3e3; /*border-bottom: 1px solid #e3e3e3;*/}
+.sidebar2, .sidebar-comments                { /*background: #f3f3f3;*/ border-bottom: 1px solid #bab9b9; }
+.sidebar3                { /*background: #f3f3f3;*/ border-bottom: 1px solid #bab9b9; }
+
+.article_list li .views  { color: #7f8282;}
+.article_list li h3 a    { color: #333; }
+.article_list li h3 a:hover { text-decoration: underline;}
+.article_list li .down a { color: #7dc34d; }
+.article_list li .down a:hover { text-decoration: underline;}
+ul.tags li a             { background: #f0eee9; color: #7f8282 !important;}
+ul.tags li a:hover       { color: #fff !important; background: #0099cc;}
+.featured-list li        { background: #FFF; border-left: 1px solid #e3e3e3; border-right: 1px solid #bebebd; border-bottom: 1px solid #bebebd;}
+.featured-list li span.featured-category a { color: #7f8282;}
+.featured-list li span.featured-category a:hover { text-decoration: underline;}
+.featured-list li h3 a   { color: #333;}
+.featured-list li h3 a:hover { text-decoration: underline;}
+
+ul.jobs-list             { background: #FFF; border: 1px solid #e3e3e3;}
+.jobs-list li            { border-bottom: 1px solid #e3e3e3; }
+.jobs-list li:hover      { background: #f3f3f3; border-bottom: 1px solid #bebebd;}
+.jobs-list li a h3       { color: #444;}
+
+.jobs-list li a h3 span.small    { color: #969797; }
+.jobs-list li a h3 span.big      { color: #969797; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Comments ------------------------------------
+-----------------------------------------------------------------------------*/
+
+ul.comment               { background: #FFF; border: 1px solid #e3e3e3;}
+.comment li              { border-bottom: 1px solid #e3e3e3;}
+.comment li:hover        { background: #f3f3f3; border-bottom: 1px solid #bebebd; }
+.comment li:hover div.comment-body { color: #666;}
+.comment li span.comment-author a  { color: #FFF; background: #0099cc;}
+.comment li span.comment-date      { color: #969797;}
+.comment li div.comment-body       { color: #969797;}
+#respond                 { color: #969797;}
+#commentform textarea    { border: 1px solid #e3e3e3; color:#666; background:#FFF;}
+#commentform #author, #commentform #email, #commentform #url  { border: 1px solid #e3e3e3; color:#999; background:#FFF;}
+#commentform label span    { color:#F00; }
+#commentform span          { color:#F00; }
+#commentform .submitcomm   { background-color: #0099cc; border: 1px solid #0099cc; color: #FFF; text-shadow: 0 -1px 0 #0099cc; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Menu ----------------------------------------
+-----------------------------------------------------------------------------*/
+
+.jquerycssmenu { border-right: 1px solid #282828; }
+.jquerycssmenu ul li { border-left: 1px solid #282828;}
+
+.jquerycssmenu ul li.current  { background: #0099cc;}
+.jquerycssmenu ul li.current2 { background: #7dc34d;}
+.jquerycssmenu ul li.current3 { background: #e76b33;}
+.jquerycssmenu ul li.current4 { background: #ffd62c;}
+.jquerycssmenu ul li:hover    { background: #0099cc;}
+
+/*Top level menu link items style*/
+.jquerycssmenu ul li a { color: #FFF; }
+
+/*1st sub level menu*/
+.jquerycssmenu ul li ul { background: #3b3b3b;}
+
+/* Sub level menu links style */
+.jquerycssmenu ul li ul li a { border-bottom: 1px solid #282828; color: #f9f9f9;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 7 - Job & Contact Form --------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Job Form -- */
+#jobform #contactName, #jobform #emaill, #jobform #jobtitle, #jobform #joblocation  { border:1px solid #e76b33; color:#333;}	
+#jobform textarea         { border:1px solid #e76b33; color:#333; } 
+#jobform .sendemail       { background-color: #e76b33; border: 1px solid #e76b33; color: #FFF; text-shadow: 0 -1px 0 #e76b33;}
+#jobform label span       { color:#F00; }
+#jobform span             { color:#F00; }
+#jobform label.error      { color:#F00; }
+
+.small-input-box                    { border: 1px solid #DDD;}
+
+/* -- Contact Form -- */
+#contactform #contactName, #contactform #emaill, #contactform #subject { border:1px solid #e76b33; color:#333; }	
+#contactform textarea         { border:1px solid #e76b33; color:#333;} 
+#contactform .sendemail       { background-color: #e76b33; border: 1px solid #e76b33; color: #FFF; text-shadow: 0 -1px 0 #e76b33;}
+#contactform label span       { color:#F00;}
+#contactform span             { color:#F00;}
+#contactform label.error      { color:#F00;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Footer --------------------------------------
+-----------------------------------------------------------------------------*/
+
+footer                   { background: #282828; }
+.footer-content          { background: #3b3b3b; border-bottom: 5px solid #282828;}
+.company                 { background: #3a3a3a; border-left: 2px solid #303030; border-top: 2px solid #303030; color: #b1b2b2;}
+.company h4              { color: #FFF;}
+.twitter-box, .facebook-box    { color: #b1b2b2; }             
+.twitter-box h4, .facebook-box h4 { color: #FFF;}
+
+.site-stats li           { border-left: 2px solid #303030; border-top: 2px solid #303030; }
+.site-stats li a         { color: #FFF;}
+.site-stats li.allposts  { background:#3a3a3a; border-bottom: 2px solid #0099cc; } 
+.site-stats li.allfreeb  { background:#3a3a3a; border-bottom: 2px solid #7dc34d;}
+.site-stats li.alljobs   { background:#3a3a3a; border-bottom: 2px solid #e76b33; }
+.site-stats li div.tx    { color: #b1b2b2;}
+
+.site-stats li.allposts a:hover { background: #0099cc; }
+.site-stats li.allfreeb a:hover { background: #7dc34d; }
+.site-stats li.alljobs a:hover  { background: #e76b33; }
+.site-stats li a:hover div.tx   { color: #FFF;}
+
+.footer-bottom           { background: #3b3b3b; border-top: 2px solid #444444; border-bottom: 3px solid #282828;}
+.copyright               { color: #FFF;}
+.copyright a             { color: #FFF; text-decoration: underline;}
+.copyright a:hover       { text-decoration:none; }
+.footer-menu li          { color: #FFF;}
+.footer-menu li a        { color: #FFF; text-decoration: underline; }
+.footer-menu li a:hover  { text-decoration:none;}
+
+/* -- Back to Top -- */
+#back-top a:hover { color: #000; }
+#back-top a:hover span { background-color:#000; }

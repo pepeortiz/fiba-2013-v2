@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* This style is for Internet Explore 9 */
+
+.boxhide  { margin-bottom: 60px;}
+ul.social-stats { display: none; }
+#carouselInfoContainer { margin-top: 20px; }
