@@ -52,6 +52,10 @@ h3.sidebar1-title-gold   { background: #ffd62c; color: #FFF;}
 h2.article-title a, h1.article-title, h1.page-title { color: #333;}        
 h2.article-title a:hover, .article-category a:hover { text-decoration: underline; }
 
+h1.white { color: #fff; }
+.videosFotosBack { background: #333; border: none; }
+.bigger { margin: 60px -15px; width: 608px; }
+
 .rating > span:hover:before, .rating > span.gold:before, .rating > span:hover ~ span:before { color: #ffd62c; }
 
 .post-date               { background-color:#0099cc; color: #FFF;}
@@ -79,7 +83,7 @@ h2.article-title a:hover, .article-category a:hover { text-decoration: underline
 .wp-pagenavi span.current { background: #c42835; color: #fff !important;}
 
 /* -- Freebies -- */
-.free-item               { border: 1px solid #e3e3e3;}
+/*.free-item               { border: 1px solid #e3e3e3;}*/
 .free-item .caption h2   { color: #444;}
 .free-item .caption      { background: #FFF; color:#FFF;}
 .free-item .caption p    { color: #969797;}
