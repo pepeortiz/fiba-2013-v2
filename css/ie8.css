@@ -15,3 +15,14 @@ ul.social-stats { display: none; }
 .content { width: 657px; }
 .footer-content, .footer-bottom { width: 980px; }
 .twitter-box { width: 230px; }
+.jobdate { margin-left: -430px; }
+ul.jobs li { width: 580px; }
+ul.jobs { width: 608px; }
+.banner { width: 600px; }
+.banner660Responsive { display: none; }
+.post { width: 608px; }
+.article-container { width: 560px; }
+.article-content { width: 560px; }
+
+.free-item { width: 185px; }
+/*ul.jobs li:hover { width: 580px; }*/

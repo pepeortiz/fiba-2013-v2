@@ -150,6 +150,9 @@ ul.social-stats          { float: right; margin: 20px 0;}
 .country { margin: -26px 0 0 40px; }
 .score { margin: -22px 10px 0 0; float: right; }
 .scoreLive { font-family: 'Chivo', sans-serif; font-weight: 900; font-size: 20px; }
+
+.vermas { text-align: right; margin-left: -10px; width: 318px; }
+
 .vermas a { color: #c62037; font-family: 'Chivo', sans-serif; font-weight: 900; font-size: 14px; margin: 0px 0 0 210px; text-decoration: underline; }
 .equipo { text-align: left; width: 150px; padding-left: 15px;  }
 .nombreequipo { padding-left: 15px;  }
