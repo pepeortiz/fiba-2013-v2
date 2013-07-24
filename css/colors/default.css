@@ -238,3 +238,6 @@ footer                   { background: #282828; }
 /* -- Back to Top -- */
 #back-top a:hover { color: #000; }
 #back-top a:hover span { background-color:#000; }
+
+
+.videosFotosBack { background: #333; border: none; }

@@ -139,6 +139,7 @@ ul.comment               { width: 609px;}
 .entry { width: 550px; }
 .free-item { width: 185px; }
 
+.galeriasHolder { margin: 0px auto; width: 620px; }
 
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
@@ -239,6 +240,17 @@ ul.comment               { width: 659px;}
 #sitemenu { display: none; }
 
 .listadoTituloNoticia { width: 225px; }
+
+
+.galeriasHolder { margin: 0px auto; width: 320px; }
+.galeriasP { width: 380px; margin-top: 20px; margin-left: 10px; }
+.single-share { width: 300px; }
+.galeriaDate { margin-left: 10px; }
+.galeriaTitle { margin-left: 10px; }
+/*.galeriaContainer { top: 10px; }*/
+
+
+
 
 
 /*-----------------------------------------------------------------------------
@@ -409,6 +421,15 @@ ul.footer-menu            { display: none;}
 
 .listadoTituloNoticia { width: 210px; margin-left: 0; margin-top: 5px; }
 h1.article-title { width: 205px; }
+
+
+.galeriasHolder { margin-left: -10px; }
+.galeriasP { width: 280px; margin-top: 20px; margin-left: 10px; }
+/*.single-share { width: 300px; }*/
+.galeriaDate { margin-left: 10px; }
+.galeriaTitle { margin-left: 10px; }
+.galeriaContainer { top: -50px; }
+
 
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
