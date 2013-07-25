@@ -166,6 +166,7 @@ ul.social-stats          { float: right; margin: 20px 0;}
 .bloguero p { font-family: 'Chivo', sans-serif; font-weight: 400; font-size: 14px; color: #3b3b3b; }
 #banner300 { width: 300px; height: 250px; margin: 60px 0 40px 10px; }
 #banner300Secciones { width: 300px; height: 250px; margin: 30px 0 40px 10px; }
+#banner300SeccionesWhite { width: 300px; height: 250px; margin: 30px 0 40px 10px; color: #fff; }
 
 
 #destacados { width: 585px; height: 400px; margin: 10px auto; /*overflow: hidden;*/ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }
