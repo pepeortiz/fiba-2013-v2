@@ -26,3 +26,15 @@ ul.jobs { width: 608px; }
 
 .free-item { width: 185px; }
 /*ul.jobs li:hover { width: 580px; }*/
+
+.masgalerias { margin-left: -25px; width: 608px; }
+
+
+#galeriaResponsiveLeft { display: none; }
+#galeriaResponsiveRight { display: none; }
+
+.tituloFotos { width: 608px; }
+.ieFix { width: 609px; }
+
+#leftController { border: none; background: url('../images/fiba/ieArrowLeft.png'); width: 20px; height: 30px; }
+#rightController { border: none; background: url('../images/fiba/ieArrowRight.png'); width: 20px; height: 30px; }
