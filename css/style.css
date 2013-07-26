@@ -245,7 +245,7 @@ li .responsiveStats { border-right: 2px solid red; }
 -----------------------------------------------------------------------------*/
 
 .content                 { width: 710px; height: auto; float: left; }
-h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title  { width: 660px; height: 35px; float: left;  padding: 10px 25px 0 25px; }
+h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title, .tituloFotos  { width: 660px; height: 35px; float: left;  padding: 10px 25px 0 25px; }
 h3.sidebar1-title, h3.sidebar1-title-green, h3.sidebar1-title-gold { width: 283px; height: 35px; float: left;  padding: 10px 25px 0 12px; }
 h3.sidebar2-title, h3.sidebar2-title-orange, h3.sidebar2-title-black { width: 356px; height: 35px; float: left;  padding: 10px 25px 0 25px; }
 
@@ -357,6 +357,9 @@ img.aligncenter           { display: block; margin:1px auto;  }
 .galeriasHolder { margin-left: 20px; }
 .galeriaDate, .galeriasP { margin-top: 0; color: #fff; }
 .masvideos { background: #f5f4f1; color: #333; }
+#galeriaInfoText { overflow: hidden; height: 80px; position: relative; display: inline-block; width: 100%; }
+
+
 
 
 .down-share   { margin: 0 0 30px 0; float: left;}
@@ -815,3 +818,8 @@ ul.minus-black-list         { margin:20px 40px; list-style-type: none;}
 #tabs li.active a:hover    { background-color: #0099cc; padding: 10px 8px; border-bottom: none; }
 #tabs_content_container    { background: #f0eee9; border: 1px solid #e3e3e3; border-top: none; padding: 10px; width: auto; }
 .tab_content               { display: none; }
+
+
+
+
+.galeriaContainer { width: 609px; height: auto; margin: -60px 20px 0 20px; position: relative; }

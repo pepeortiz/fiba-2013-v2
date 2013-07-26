@@ -38,7 +38,7 @@ header                   { background: #3b3b3b;}
 -----------------------------------------------------------------------------*/
 
 .content                 { background: #f3f3f3; border-right: 1px solid #bab9b9; border-bottom: 1px solid #e3e3e3; }
-h3.content-title, h3.freebies-title, h3.blog-title, h3.jobs-title, h3.sidebar1-title, h3.sidebar2-title, h3.sidebar1-title-green, h3.sidebar1-title-gold, h3.sidebar2-title-orange, h3.sidebar2-title-black   { background: #c4c4c4; border-top: 1px solid #bab9b9; border-bottom: 1px solid #bab9b9; }
+h3.content-title, h3.freebies-title, h3.blog-title, h3.jobs-title, .tituloFotos, h3.sidebar1-title, h3.sidebar2-title, h3.sidebar1-title-green, h3.sidebar1-title-gold, h3.sidebar2-title-orange, h3.sidebar2-title-black   { background: #c4c4c4; border-top: 1px solid #bab9b9; border-bottom: 1px solid #bab9b9; }
 h3.sidebar2-title, h3.blog-title        { background: #0099cc; color: #FFF;}
 h3.sidebar2-title-orange, h3.jobs-title { background: #c4c4c4; color: #333;}
 h3.sidebar2-title-black  { background: #3b3b3b; color: #FFF;}

@@ -10,7 +10,8 @@
 
 /* Standard 980 (devices and browsers) */
 @media only screen and (min-width: 1000px) { 
-
+#galeriaResponsiveLeft { display: none; }
+#galeriaResponsiveRight { display: none; }
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
 ----------------------------------------------------------------------------- */
@@ -141,6 +142,9 @@ ul.comment               { width: 609px;}
 
 .galeriasHolder { margin: 0px auto; width: 620px; }
 
+#galeriaResponsiveLeft { display: none; }
+#galeriaResponsiveRight { display: none; }
+
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
 ----------------------------------------------------------------------------- */
@@ -250,8 +254,12 @@ ul.comment               { width: 659px;}
 /*.galeriaContainer { top: 10px; }*/
 
 
-
-
+#controlesGaleria { display: none; }
+#galeriaInfoText { margin-top: -70px; }
+#gallery li { height: 330px; width: 400px; }
+#nota_gallery { height: 430px; }
+.bigger { width: 400px; }
+.tituloFotos { width: 400px; }
 
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
@@ -424,11 +432,23 @@ h1.article-title { width: 205px; }
 
 
 .galeriasHolder { margin-left: -10px; }
-.galeriasP { width: 280px; margin-top: 20px; margin-left: 10px; }
+.galeriasP { width: 250px; margin-top: 20px; margin-left: 10px; }
 /*.single-share { width: 300px; }*/
 .galeriaDate { margin-left: 10px; }
 .galeriaTitle { margin-left: 10px; }
 .galeriaContainer { top: -50px; }
+
+
+#controlesGaleria { display: none; }
+#galeriaInfoText { margin-top: -70px; }
+#gallery li { height: 240px; width: 250px; }
+#nota_gallery { height: 350px; }
+
+#galeriaResponsiveLeft { position: absolute; z-index: 999; cursor: pointer; margin-top: 70px; margin-left: 12px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); float: left; }
+#galeriaResponsiveRight { position: absolute; z-index: 999; margin-bottom: 30px; cursor: pointer; margin-top: 70px; margin-left: 210px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10); float: right; }
+
+.bigger { width: 250px; margin: 40px 0 0 0; }
+.tituloFotos { width: 250px; }
 
 
 /*-----------------------------------------------------------------------------
