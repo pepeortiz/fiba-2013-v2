@@ -264,7 +264,8 @@ h3.sidebar1-title2 { width: 283px; height: 35px; float: left;  padding: 10px 25p
 .article-category span   { padding: 0 3px;}
 .article-category        { float: left;}
 h2.article-title a       { font-size: 29px; font-family: 'Sanchez', serif; font-weight: normal; line-height: 36px;}
-h1.article-title         { width: 590px; height: 55px; margin-top: 20px; font-family: 'Chivo', sans-serif; font-style: italic; font-weight: 900; font-size: 26px; line-height: 28px;}
+/*h1.article-title         { width: 590px; height: 55px; margin-top: 20px; font-family: 'Chivo', sans-serif; font-style: italic; font-weight: 900; font-size: 26px; line-height: 28px;}*/
+h1.article-title         { width: 590px; margin-top: 20px; font-family: 'Chivo', sans-serif; font-style: italic; font-weight: 900; font-size: 26px; line-height: 28px;}
 h1.center-stage-title    { width: 510px; height: 55px; margin-top: 20px; font-family: 'Chivo', sans-serif; font-weight: 400; line-height: 28px;}
 h1.page-title            { font-size: 29px; font-family: 'Sanchez', serif; font-weight: normal; line-height: 36px; margin-top: 20px;}
 .article-content p       { padding: 20px 0;}
@@ -284,7 +285,8 @@ h1.page-title            { font-size: 29px; font-family: 'Sanchez', serif; font-
 .post-date span.day, .freebies-date span.day      { font-size:20px; font-weight:bold; position:relative; top:-1px; }
 
 .entry { margin-top: 40px; }
-.notaDate { margin-top: 35px; }
+/*.notaDate { margin-top: 35px; }*/
+.notaDate { margin-top: 15px; }
 .article-content p a { color: #c42835; }
 .free-item p { margin-top: 130px; font-family: 'Chivo', sans-serif; font-weight: 400; font-size: 16px; }
 
