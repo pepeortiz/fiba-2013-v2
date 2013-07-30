@@ -136,9 +136,10 @@ ul.comment               { width: 609px;}
 
 .banner660responsive { display: block; }
 
-.post { width: 609px; margin-left: 50px; }
-.article-container { width: 580px; }
-.entry { width: 550px; }
+.post 					{ width: 609px; margin-left: 50px; }
+.post img               { width: 608px; }
+.article-container 		{ width: 580px; }
+.entry 					{ width: 550px; }
 .free-item { width: 185px; }
 
 .galeriasHolder { margin: 0px auto; width: 620px; }
@@ -435,6 +436,7 @@ ul.footer-menu            { display: none;}
 .listadoTituloNoticia { width: 210px; margin-left: 0; margin-top: 5px; }
 h1.article-title { width: 205px; }
 
+.day { font-size: 12px; line-height: 12px; }
 
 .galeriasHolder { margin-left: -10px; }
 .galeriasP { width: 250px; margin-top: 20px; margin-left: 10px; }
@@ -449,8 +451,10 @@ h1.article-title { width: 205px; }
 #gallery li { height: 240px; width: 250px; }
 #nota_gallery { height: 350px; }
 
-#galeriaResponsiveLeft { position: absolute; z-index: 999; cursor: pointer; margin-top: 70px; margin-left: 12px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); float: left; }
-#galeriaResponsiveRight { position: absolute; z-index: 999; margin-bottom: 30px; cursor: pointer; margin-top: 70px; margin-left: 210px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10); float: right; }
+/*#galeriaResponsiveLeft { position: absolute; z-index: 999; cursor: pointer; margin-top: 70px; margin-left: 12px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); float: left; }*/
+#galeriaResponsiveLeft { position: absolute; z-index: 999; cursor: pointer; margin-top: 70px; margin-left: 12px; width: 20px; height: 20px; border-top: solid #fff 6px; border-right: solid #fff 6px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); float: left; }
+/*#galeriaResponsiveRight { position: absolute; z-index: 999; margin-bottom: 30px; cursor: pointer; margin-top: 70px; margin-left: 210px; width: 20px; height: 20px; border-top: solid #333 6px; border-right: solid #333 6px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10); float: right; }*/
+#galeriaResponsiveRight { position: absolute; z-index: 999; margin-bottom: 30px; cursor: pointer; margin-top: 70px; margin-left: 210px; width: 20px; height: 20px; border-top: solid #fff 6px; border-right: solid #fff 6px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10); float: right; }
 
 .bigger { width: 250px; margin: 40px 0 0 0; }
 .tituloFotos { width: 250px; }

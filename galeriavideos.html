@@ -58,7 +58,7 @@
         <li><a href="#">Posiciones</a></li>
         <li><a href="#">Estadisticas</a></li>
         <li><a class="menuActivo" href="./galeriavideos.html">Videos</a></li>
-        <li><a href="#">Fotos</a></li>
+        <li><a href="./galeriafotos.html">Fotos</a></li>
         <li><a href="#">En vivo</a></li>
     </ul>
 </nav>
@@ -109,8 +109,8 @@
     var videoPlayer = videoPlayer || [];
     videoPlayer['embedPlayer'] = {
         videoID: 149501,
-        videoWidth: 609,
-        videoHeight: 343,
+        videoWidth: '100%',
+        //videoHeight: '100%',
         videoPublisher: 'elnuevodia',
         videoAutoStart: false, //change to true when moving to prod
         videoShareURL: window.location.href.split('?')[0]
@@ -118,7 +118,7 @@
 </script>
 <script type="text/javascript" src="http://assets.video.gfrmedia.com/assets/embed/embed-lib.js"></script>
 
-                <div class="article-container videosFotosBack galeriaContainer">
+                <div class="article-container videosFotosBack videoContainer">
                     <div class="article-content videosFotosBack bigger">
                         <div class="clear"></div>
                         
