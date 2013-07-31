@@ -60,7 +60,7 @@
         <li><a href="#">Posiciones</a></li>
         <li><a href="#">Estadisticas</a></li>
         <li><a href="./galeriavideos.html">Videos</a></li>
-        <li><a href="#">Fotos</a></li>
+        <li><a href="./galeriafotos.html">Fotos</a></li>
         <li><a href="#">En vivo</a></li>
     </ul>
 </nav>
@@ -684,86 +684,15 @@
 
 
 
-
-<style type="text/css">
-#fb-slider {
--webkit-box-shadow: rgba(0,0,0,0.75) 0 0 25px;
--moz-box-shadow: rgba(0,0,0,0.75) 0 0 25px;
-box-shadow: rgba(0,0,0,0.75) 0 0 25px;
-border: 0;
-}
-#fb-slider {
-background: white;
-z-index: 100000;
-position: fixed;
-width: 300px;
-bottom: 20px;
-right: -320px;
-border: 1px solid #555;
--webkit-box-shadow: 0 0 0px black;
--moz-box-shadow: 0 0 0px black;
-box-shadow: 0 0 0px black;
-opacity: 1;
--webkit-transition: right 0.25s ease-in;
--moz-transition: right 0.25s ease-in;
--o-transition: right 0.25s ease-in;
-transition: right 0.25s ease-in;
-}
-#fb-slider .top-bar {
-background: #f7f7f7;
-height: 52px;
-border-top: 12px solid #13b5ea;
-margin-bottom: 12px;
-padding: 10px 12px 12px;
-display: block;
-border-bottom: 1px solid rgba(0,0,0,0.075);
-}
-#fb-slider .top-bar .close-slider {
-float: right;
-color: rgba(0,0,0,0.4);
-}
-#fb-slider .top-bar .close-button {
-background: url(http://greatist.com/sites/all/themes/greatist/images/drupal/close.png) right 40% no-repeat;
-display: block;
-width: 16px;
-height: auto;
-text-indent: -5000px;
-}
-#fb-slider .top-bar .dont-show {
-color: #949b9f;
-float: right;
-font-size: 12px;
-border-right: 1px solid #949b9f;
-margin-right: 10px;
-padding: 0 10px;
-}
-#fb-slider .slide-content {
-clear: both;
-}
-#fb-slider .slide-content .like-us {
-text-align: center;
-margin: 0 auto;
-display: block;
-font-weight: bold;
-padding: 6px;
-}
-#fb-slider #slider-like-button {
-padding: 0 24px;
-}
-
-
-</style>
-
-
-	<div id="fb-slider" style="right: -1px;">
+	<div id="fb-slider" style="">
       <div class="top-bar">
-        <div class="close-slider"><span class="close-button">Close</span></div>
-        <div class="dont-show">Don't show again</div>
+        <div class="close-slider"><span class="close-button">Cerrar</span></div>
+        <div class="dont-show">No deseo ver este anuncio otra vez</div>
       </div>
       <div class="slide-content">
         <span class="like-us">Like us on Facebook?</span>
         <div id="slider-like-button">
-          <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fgreatistblog&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=406098749419096" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:35px;" allowtransparency="true"></iframe>
+          <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Felnuevodia&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=406098749419096" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:35px;" allowtransparency="true"></iframe>
         </div>
       </div>
     </div>
@@ -778,8 +707,6 @@ padding: 0 24px;
 <script>
 $( document ).ready(function() {
 	
-	
-
       var block = $("#fb-slider");
       var height = $(document).height();
       var close = $("#fb-slider .close-slider");
@@ -791,15 +718,18 @@ $( document ).ready(function() {
       if (value == undefined) {
        value = 0;
       }
+	  
+	  //alert(value);
 
       if (value < 1) {
-        // Wait 16 secords before doing anything.
+        // Wait 15 secords before doing anything.
         setTimeout(function() {
 
           // If scroll is already near bottom of page, then show block.
           if ($(window).scrollTop() + $(window).height() > height - 700 && expanded == false) {
             block.css("right", "-1px");
             expanded = true;
+			console.log( "expanded=true" );
           }
 
           // Show block when scroll is 3/4 of way down page
@@ -810,64 +740,30 @@ $( document ).ready(function() {
             if ($(window).scrollTop() + $(window).height() > (height * .75) && expanded == false) {
               block.css("right", "-1px");
               expanded = true;
+			  console.log( "expanded=true" );
             }
             //else if ($(window).scrollTop() < $(document).height() - $(window).height() - 700 && expanded == true) {
             else if ($(window).scrollTop() + $(window).height() < (height * .75) && expanded == true) {
               block.css("right", right);
               expanded = false;
+			  console.log( "expanded=false" );
             }
           });
-        }, 16000);
+        }, 15000);
       }
 
       // Close button.
       close.click(function() {
+		console.log( "simple close (block.hide)" );
         block.hide();
       });
 
       // Don't show again.
       dont_show.click(function() {
-        $.cookie('Caracas2013-Facebook-Like-Slider', 1, {path: "/especiales.elnuevodia.com/"});
+        $.cookie('Caracas2013-Facebook-Like-Slider', 1, {expires: 90, path: "/especiales.elnuevodia.com/"});
+		console.log( "don't show again (block.hide) - set cookie" );
         block.hide();
       });
-
-	
-	
-	
-	
-	
-	/*
-	//alert('0');
-	//console.log( "ready!" );
-	
-	var expanded = false;
-
-	var value = $.cookie('Caracas2013-Facebook-Like-Slider');
-	//NOT DEFINED
-	if (value == undefined) {
-		value = 0;
-	} else {
-		value = parseInt(value) + 1;
-	}
-	
-	alert(value);
-	
-	//$.cookie('Caracas2013-Facebook-Like-Slider', value, { expires: 7, path: '/especiales.elnuevodia.com/' });
-
-	if ($(window).scrollTop() + $(window).height() > height - 700 && expanded == false) {
-		alert('almost at the end of the page');
-		expanded = true;
-	}
-	
-	$(window).scroll(function() {
-            if ($(window).scrollTop() + $(window).height() > (height * .75) && expanded == false) {
-				alert('this');
-			}
-            //else if ($(window).scrollTop() < $(document).height() - $(window).height() - 700 && expanded == true) {
-            else if ($(window).scrollTop() + $(window).height() < (height * .75) && expanded == true) {
-				alert('that');            }
-	});
-	*/
 	
 
 }(jQuery));

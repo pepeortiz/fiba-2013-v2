@@ -117,6 +117,80 @@ ul.comment               { width: 609px;}
 .twitter-box              { margin-left: 20px;}
 
 
+
+/* -------------------------------------------------------------------------------- */
+/* ------------------------- fb-slide --------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+#fb-slider {
+	-webkit-box-shadow: rgba(0,0,0,0.75) 0 0 25px;
+	-moz-box-shadow: rgba(0,0,0,0.75) 0 0 25px;
+	box-shadow: rgba(0,0,0,0.75) 0 0 25px;
+	border: 0;
+}
+#fb-slider {
+	background: white;
+	z-index: 100000;
+	position: fixed;
+	width: 300px;
+	bottom: 20px;
+	right: -320px;
+	border: 1px solid #555;
+	-webkit-box-shadow: 0 0 0px black;
+	-moz-box-shadow: 0 0 0px black;
+	box-shadow: 0 0 0px black;
+	opacity: 1;
+	-webkit-transition: right 0.25s ease-in;
+	-moz-transition: right 0.25s ease-in;
+	-o-transition: right 0.25s ease-in;
+	transition: right 0.25s ease-in;
+}
+#fb-slider .top-bar {
+	background: #f7f7f7;
+	/*height: 52px;*/
+	height: 16px;
+	border-top: 12px solid #C62036;
+	margin-bottom: 12px;
+	padding: 10px 12px 12px;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.075);
+}
+#fb-slider .top-bar .close-slider {
+	float: right;
+	color: rgba(0,0,0,0.4);
+}
+#fb-slider .top-bar .close-button {
+	background: url(../images/close.png) right 40% no-repeat;
+	display: block;
+	width: 16px;
+	height: auto;
+	text-indent: -5000px;
+}
+#fb-slider .top-bar .dont-show {
+	color: #949b9f;
+	float: right;
+	font-size: 12px;
+	border-right: 1px solid #949b9f;
+	margin-right: 10px;
+	padding: 0 10px;
+}
+#fb-slider .slide-content {
+	clear: both;
+}
+#fb-slider .slide-content .like-us {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	font-weight: bold;
+	padding: 6px;
+}
+#fb-slider #slider-like-button {
+	padding: 0 24px;
+}
+
+
+
+
 }
 
 
@@ -210,6 +284,7 @@ ul.comment               { width: 659px;}
 .facebook-box             { display: none;}
 .twitter-box              { display: none;}
 
+#fb-slider {display: none;}
 
 }
 
@@ -390,6 +465,7 @@ ul.footer-menu            { display: none;}
 .one_third, .one_third_last       { float:left; width:360px; margin-bottom:10px; margin-right:0; }
 .one_third_last                   { margin-right:0;}
 
+#fb-slider {display: none;}
 
 }
 
@@ -600,5 +676,6 @@ ul.footer-menu            { display: none;}
 .one_third, .one_third_last       { float:left; width:210px; margin-bottom:10px; margin-right:0; }
 .one_third_last                   { margin-right:0;}
 
+#fb-slider {display: none;}
 
 }
