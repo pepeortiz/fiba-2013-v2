@@ -10,8 +10,8 @@
 
 /* Standard 980 (devices and browsers) */
 @media only screen and (min-width: 1000px) { 
-#galeriaResponsiveLeft { display: none; }
-#galeriaResponsiveRight { display: none; }
+#galeriaResponsiveLeft { /*display: none;*/ }
+#galeriaResponsiveRight { /*display: none;*/ }
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
 ----------------------------------------------------------------------------- */
@@ -144,9 +144,10 @@ ul.comment               { width: 609px;}
 
 .galeriasHolder { margin: 0px auto; width: 620px; }
 
-#galeriaResponsiveLeft { display: none; }
-#galeriaResponsiveRight { display: none; }
+#galeriaResponsiveLeft { /*display: none;*/ }
+#galeriaResponsiveRight { /*display: none;*/ }
 h1.article-title         { font-size: 30px; line-height: 28px; width: 500px; }
+#galleryUL li img { width: 608px; height: 456px; }
 
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
@@ -231,7 +232,7 @@ ul.comment               { width: 659px;}
 .freebies-date { margin-left: -35px;  }
 .info h1 { width: 370px; }
 #controles { margin-top: -10px; }
-#galeriasHolder { width: 420px; height: 490px; }
+#galeriasHolder { width: 420px; height: 430px; }
 .vermasgaleria a { margin-left: 358px; }
 #videosHolder { width: 420px; }
 #bigVideo, #bigVideo img { width: 383px; height: 249px; }
@@ -258,11 +259,12 @@ ul.comment               { width: 659px;}
 
 
 #controlesGaleria { display: none; }
-#galeriaInfoText { margin-top: -70px; }
+#galeriaInfoText { margin-top: -40px; }
 #gallery li { height: 330px; width: 400px; }
 #nota_gallery { height: 430px; }
 .bigger { width: 400px; }
 .tituloFotos { width: 400px; }
+.videos { margin-top: 40px; }
 
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
@@ -301,7 +303,7 @@ h1.article-title         { font-size: 20px; line-height: 26px; padding-top: 5px;
 
 .entry img               { width: auto;}
 .boxhide iframe          { width: 100%; height: 231px; }
-.recently                { width: 450px; }
+.recently                { width: 450px; margin-top: -30px; }
 .boxhide                 { margin-bottom: 60px;}
 
 
@@ -486,7 +488,7 @@ h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title  { width: 250p
 .wp-pagenavi               { width: 250px; }
 .post                    { width: 250px; }
 .post img                { width: 250px; }
-.article-container       { width: 210px; margin:0;}
+.article-container       { width: 0px; margin:0;}
 .article-content         { width: 210px; }
 .article-content2        { width: 210px; }
 h2.article-title a       { font-size: 20px; line-height: 16px; }
@@ -500,7 +502,7 @@ img.alignright               { float: none; width: auto; margin: 20px 0 10px 0;}
 
 .entry img               { width: auto;}
 .boxhide iframe          { width: 100%; height: 144px; }
-.recently                { width: 250px; }
+.recently                { width: 250px; margin-top: -30px; }
 .boxhide                 { margin-bottom: 0;}
 .boxhide:hover           { margin-bottom: 0;}
 
