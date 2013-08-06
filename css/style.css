@@ -169,12 +169,23 @@ ul.social-stats          { float: right; margin: 20px 0;}
 #banner300SeccionesWhite { width: 300px; height: 250px; margin: 30px 0 40px 10px; color: #fff; }
 
 
-.tablaPosiciones { margin: 0 auto; width: 608px; }
-table { border: 1px solid #000; }
-tr { border-top: 1px solid red; }
-tr + tr { border-top: 1px solid #000; }
-td { border-bottom: 1px solid red; }
-td + td { border-bottom: 1px solid #000; }
+.tablaPosiciones { margin: 79px auto; width: 608px; }
+table { border: 1px solid #333; }
+tr { border-top: 1px solid #333; }
+tr + tr { border-top: 1px solid #333; }
+td { border-bottom: 1px solid #333; }
+td + td { border-bottom: 1px solid #333; }
+
+/*tr:nth-child(even) { background: #CCC; }
+tr:nth-child(odd) { background: #f3f3f3; }*/
+
+.tdNumero { width: 24px; }
+.tdEquipo { width: 200px; }
+.tdGanados { width: 73px; }
+.tdPerdidos { width: 67px; }
+.tdPuntos { width: 52px; }
+.tdEfectuados { width: 76px; }
+.tdPermitidos { width: 70px; }
 
 
 #destacados { width: 585px; height: 400px; margin: 10px auto; /*overflow: hidden;*/ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }

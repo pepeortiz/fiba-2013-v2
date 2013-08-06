@@ -181,6 +181,12 @@ $(window).load(function() {
 			$('#windowJugadorImage').css({'width':'390px', 'padding':'13px'});
 			centerJugadorDestacado();
 			$(window).bind('scroll', centerJugadorDestacado);
+
+			$('.tdGanados').html('Ganados');
+			$('.tdPerdidos').html('Perdidos');
+			$('.tdPuntos').html('Puntos'); 
+			$('.tdEfectuados').html('Efectuados');
+			$('.tdPermitidos').html('Permitidos');
 			
 		}else if($(window).width() < 760 && $(window).width() > 479 ) {
 			$('#jugadorInfoHolder').css({'width':'290px', 'margin-top':'-135px'});
@@ -189,6 +195,13 @@ $(window).load(function() {
 			$('#windowJugadorImage img').width('290px');
 			$(window).unbind('scroll', centerJugadorDestacado);
 			centerJugadorDestacado();
+
+			$('.tdGanados').html('G');
+			$('.tdPerdidos').html('P');
+			$('.tdPuntos').html('Pts'); 
+			$('.tdEfectuados').html('Efec');
+			$('.tdPermitidos').html('Perm');
+
 		}else if($(window).width() < 479) {
 			$('#jugadorInfoHolder').css({'width':'290px', 'margin-top':'-135px'});
 			$('.windowJugador').css({'width':'290px', 'top':'210px'});
@@ -196,6 +209,13 @@ $(window).load(function() {
 			$('#windowJugadorImage img').width('290px');
 			$(window).unbind('scroll', centerJugadorDestacado);
 			centerJugadorDestacado();
+
+			$('.tdGanados').html('G');
+			$('.tdPerdidos').html('P');
+			$('.tdPuntos').html('Pts'); 
+			$('.tdEfectuados').html('Efec');
+			$('.tdPermitidos').html('Perm');
+
 		}else if($(window).width() > 999){
 			$('#jugadorInfoHolder').css({'width':'400','margin-top':'0px'});
 			$('.windowJugador').css({'width':'800px', 'top':'10px'});
@@ -203,6 +223,13 @@ $(window).load(function() {
 			$('#windowJugadorImage').css({'width':'400px', 'padding':'18px'});
 			$(window).bind('scroll', centerJugadorDestacado);
 			centerJugadorDestacado();
+
+			$('.tdGanados').html('Ganados');
+			$('.tdPerdidos').html('Perdidos');
+			$('.tdPuntos').html('Puntos'); 
+			$('.tdEfectuados').html('Efectuados');
+			$('.tdPermitidos').html('Permitidos');
+			
 		}
 	});
 
@@ -244,6 +271,7 @@ $(window).load(function() {
 			$('#windowJugadorImage img').width('290px');
 			$(window).unbind('scroll', centerJugadorDestacado);
 			centerJugadorDestacado();
+
 		}else if($(window).width() > 999){
 			$('#jugadorInfoHolder').css({'width':'400','margin-top':'0px'});
 			$('.windowJugador').css({'width':'800px', 'top':'10px'});
@@ -302,6 +330,10 @@ $(document).ready(function(){
 		$('.tabs').eq($(this).index()).show();
 
 	});
+
+	$('tr:even').css('background', '#ccc');
+	$('tr:odd').css('background', '#f3f3f3');
+	
 
 	
 
