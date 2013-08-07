@@ -187,6 +187,14 @@ tr:nth-child(odd) { background: #f3f3f3; }*/
 .tdEfectuados { width: 76px; }
 .tdPermitidos { width: 70px; }
 
+.tdNumero1 { width: 24px; }
+.tdEquipo1 { width: 200px; }
+.tdGanados1 { width: 73px; }
+.tdPerdidos1 { width: 67px; }
+.tdPuntos1 { width: 52px; }
+.tdEfectuados1 { width: 76px; }
+.tdPermitidos1 { width: 70px; }
+
 
 #destacados { width: 585px; height: 400px; margin: 10px auto; /*overflow: hidden;*/ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }
 .jugador { float: left; margin: 10px; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }
