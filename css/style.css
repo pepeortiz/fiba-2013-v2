@@ -130,6 +130,23 @@ ul.social-stats          { float: right; margin: 20px 0;}
 .bloguero a:hover, .noticia a:hover { text-decoration: underline; }
 
 
+#accordion { margin: 78px auto; width: 610px; }
+#accordion p { margin: -24px 0px 0px 45px; }
+#accordion table { font-size: 11px; }
+.tablaEquipos { margin-left: -23px; }
+.tablaEquipos2 { margin: 10px 0 10px -23px; }
+.tablaEquipos2Mobile { display: none; }
+.tablaEquipos2MobilePort { display: none; }
+.tdNumeroJugador { width: 28px; }
+.tdApellidoJugador { width: 120px; }
+.tdNombreJugador { width: 140px; }
+.tdCiudadJugador { width: 190px; }
+.tdEdadJugador { width: 100px; }
+.tdAlturaJugador { width: 70px; padding-right: 4px; }
+.p4 { padding-right: 4px; }
+
+
+
 
 #estadisticasChoices {  }
 #estadisticasChoices ul { height: 47px; }
@@ -170,11 +187,12 @@ ul.social-stats          { float: right; margin: 20px 0;}
 
 
 .tablaPosiciones { margin: 79px auto; width: 608px; }
-table { border: 1px solid #333; }
-tr { border-top: 1px solid #333; }
-tr + tr { border-top: 1px solid #333; }
-td { border-bottom: 1px solid #333; }
-td + td { border-bottom: 1px solid #333; }
+table { border: 1px solid #aaa; }
+tr { border: 1px solid #aaa; }
+tr + tr { border: 1px solid #aaa; }
+td { border: 1px solid #aaa; }
+td + td { border: 1px solid #aaa; }
+#accordion table td { padding: 3px; }
 
 /*tr:nth-child(even) { background: #CCC; }
 tr:nth-child(odd) { background: #f3f3f3; }*/
