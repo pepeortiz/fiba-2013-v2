@@ -331,7 +331,7 @@ $(document).ready(function(){
 
 	});
 
-	$('tr:even').css('background', '#ccc');
+	$('tr:even').css('background', '#e6e6e6');
 	$('tr:odd').css('background', '#f3f3f3');
 	
 
