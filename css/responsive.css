@@ -10,8 +10,8 @@
 
 /* Standard 980 (devices and browsers) */
 @media only screen and (min-width: 1000px) { 
-#galeriaResponsiveLeft { /*display: none;*/ }
-#galeriaResponsiveRight { /*display: none;*/ }
+#galeriaResponsiveLeft { display: none; }
+#galeriaResponsiveRight { display: none; }
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
 ----------------------------------------------------------------------------- */
