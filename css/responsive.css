@@ -223,6 +223,11 @@ ul.comment               { width: 609px;}
 h1.article-title         { font-size: 30px; line-height: 28px; width: 500px; }
 #galleryUL li img { width: 608px; height: 456px; }
 
+
+.img_subheader { display: none; }
+
+#header-tablet { display: block }
+
 /*-----------------------------------------------------------------------------
                                  1 - Layout   
 ----------------------------------------------------------------------------- */
@@ -314,7 +319,13 @@ ul.comment               { width: 659px;}
 #classVideosHolder { margin: 50px auto; width: 350px; }
 .videos ~ .videos { margin-left: 20px; }
 
-.img_subheader { width: 100%; overflow: hidden; }
+/*.img_subheader { width: 100%; overflow: hidden; }*/
+.img_subheader { display: none; }
+#header-mobile { display: none; }
+#header-tablet { display: none; }
+#header-intermedio { display: block; }
+
+
 #sitemenu { width: 100%; overflow: hidden; }
 #destacadosHolder { width: 381px; }
 #destacadosControlRight { margin-left: 420px; }
@@ -533,6 +544,7 @@ ul.footer-menu            { display: none;}
 
 .img_subheader { display: none; }
 #header-mobile { display: block; }
+#header-tablet { display: none; }
 
 
 #sitemenumobile { display: block; position: absolute; margin-top: 10px; }

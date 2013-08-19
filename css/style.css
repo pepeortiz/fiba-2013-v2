@@ -282,7 +282,9 @@ li .responsiveStats { border-right: 2px solid red; }
 .responsiveFinal { background: #c4c4c4; }
 .jugador { cursor: pointer; }
 
-#header-mobile { display: none; margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #2d2a2a; border-bottom: 2px solid #0b0b0b; height: 140px; }
+#header-mobile { background: black; display: none; margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #2d2a2a; border-bottom: 2px solid #0b0b0b; height: 140px; }
+#header-tablet { background: black; display: none; margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #2d2a2a; border-bottom: 2px solid #0b0b0b; height: 140px; }
+#header-intermedio { background: black; display: none; margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #2d2a2a; border-bottom: 2px solid #0b0b0b; height: 140px; }
 
 
 /*-----------------------------------------------------------------------------
