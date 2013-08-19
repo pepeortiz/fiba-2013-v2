@@ -3,7 +3,7 @@
 #galleryUl { position: relative; left: 0; top: 0; list-style: none; margin: 0; padding: 0; }
 /*#galleryUl li { float: left; width: 609px; height: 400px; }*/
 #galleryUl li { float: left; width: 609px; height: 460px; }
-#controlesGaleria { width: 609px; position: relative; margin-top: 10px; }
+#controlesGaleria { width: 609px; position: relative; margin-top: 20px; }
 #leftController { cursor: pointer; margin-top: 56px; margin-left: 10px; width: 20px; height: 20px; border-top: solid #fff 2px; border-right: solid #fff 2px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); float: left; }
 #rightController { margin-bottom: 30px; cursor: pointer; margin-top: -74px; margin-right: 10px; width: 20px; height: 20px; border-top: solid #fff 2px; border-right: solid #fff 2px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10); float: right; }
 #thumbs { /*position: relative;*/ overflow: hidden; height: 130px; width: 545px; margin-left: 35px; margin-top: -20px; }
